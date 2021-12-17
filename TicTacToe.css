@@ -1,0 +1,24 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.b_row {
+  display: flex;
+}
+
+.cell {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 35px;
+  padding: 25px;
+  border: 1px solid grey;
+}
+
+#activePlayer {
+  font-size: 30px;
+  color: grey;
+}
